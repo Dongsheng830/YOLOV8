@@ -1,0 +1,12 @@
+# 定义数据集的路径和类别
+
+# 数据集路径
+path: /root/autodl-tmp/YOLOv8/datasets/SOD4BD-0.4   # 根目录的路径
+
+# 训练集和验证集的路径
+train: images/train  # 训练集图像相对路径
+val: images/val  # 验证集图像相对路径
+
+# 类别名称（标签）
+names:
+  0: bird
